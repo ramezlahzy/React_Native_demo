@@ -11,13 +11,11 @@ export default function WelcomeScreen() {
   return (
     <View className="flex-1 flex justify-end">
       
-      {/* background image */}
       <Image 
         source={require('../../assets/images/welcome.png')}
         className="h-full w-full absolute"
       />
 
-      {/* content & gradient */}
       <View className="p-5 pb-10 space-y-8">
         <LinearGradient
             colors={['transparent', 'rgba(3,105,161,0.8)']}
