@@ -17,8 +17,8 @@ import { Formik } from "formik";
 import Dialog from "react-native-dialog";
 
 import * as formFields from "../components/FormFields";
-import CaseValidationSchema from '../validations/CaseValidationSchema'
-import caseFormModel from "../validations/caseFormModel";
+import CaseValidationSchema from '../validations/ValidationSchema'
+import caseFormModel from "../validations/FormModel";
 export default function FilterForm(props) {
   const dispatch = useDispatch();
   const { formId, formField } = caseFormModel;

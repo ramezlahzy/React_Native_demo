@@ -1,5 +1,5 @@
 import * as Yup from 'yup';
-import caseFormModel from './caseFormModel';
+import caseFormModel from './FormModel';
 const {
     formField: {
         advocateClientId,
